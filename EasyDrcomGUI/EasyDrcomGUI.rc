@@ -1,0 +1,191 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "atlres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "D:\\EasyDrcomGUI-Win32 GDUFE v1.7\\EasyDrcomGUI\\EasyDrcomGUI\\res\\EasyDrcomGUI.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_MAINDLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 233
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 237
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,7,0,0
+ PRODUCTVERSION 1,7,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "FileDescription", "EasyDrcomGUI for GDUFE"
+            VALUE "FileVersion", "1.7.0.0"
+            VALUE "InternalName", "EasyDrcomGUI"
+            VALUE "LegalCopyright", "Copyright 2016"
+            VALUE "OriginalFilename", "EasyDrcomGUI.exe"
+            VALUE "ProductName", "EasyDrcomGUI for GDUFE"
+            VALUE "ProductVersion", "1.7.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAINDLG DIALOGEX 0, 0, 241, 244
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CAPTION | WS_SYSMENU
+CAPTION "EasyDrcomGUI For Win32, v1.0"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    GROUPBOX        "",IDC_STATIC,7,7,226,96
+    LTEXT           "网卡",IDC_STATIC,34,21,17,8
+    COMBOBOX        IDC_COMBO_NIC,58,19,150,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "账户",IDC_STATIC,34,40,17,8
+    EDITTEXT        IDC_EDIT_USERNAME,58,38,150,14,ES_AUTOHSCROLL
+    LTEXT           "密码",IDC_STATIC,34,58,17,8
+    EDITTEXT        IDC_EDIT_PASSWORD,58,57,150,14,ES_PASSWORD | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "连接",IDC_BTN_CONNECT,80,77,75,18
+    GROUPBOX        "",IDC_STATIC,7,107,226,81
+    RTEXT           "状态：",IDC_LBL_STATUS_BEFORE,54,121,46,13
+    LTEXT           "已断开",IDC_LBL_STATUS,102,121,115,14
+    RTEXT           "在线时间：",IDC_STATIC,57,137,41,8
+    LTEXT           "00:00:00",IDC_LBL_ONLINE_TIME,103,137,70,8
+    LTEXT           "IP地址：",IDC_STATIC,67,149,32,8
+    LTEXT           "-",IDC_LBL_IP_ADDR,103,149,70,8
+    LTEXT           "MAC地址：",IDC_STATIC,59,160,40,8
+    LTEXT           "-",IDC_LBL_MAC_ADDR,103,160,70,8
+    LTEXT           "日志：",IDC_STATIC,74,171,25,8
+    LTEXT           "查看日志",IDC_VIEW_LOG,103,171,33,8,WS_TABSTOP
+    LTEXT           "Updated by HowquaX, build on Mar 12 2015 23:33:33",IDC_BUILD,7,226,188,8
+    PUSHBUTTON      "?",IDC_BTN_SUPPORT,219,194,14,14
+    LTEXT           "Original code by Shindo",IDC_STATIC,7,198,76,8
+    PUSHBUTTON      "?",IDC_BTN_SUPPORT2,219,222,14,14
+    LTEXT           "Modified by Xeonforce",IDC_BUILD2,7,212,188,8
+    PUSHBUTTON      "?",IDC_BTN_SUPPORT3,219,208,14,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_POPUP MENU
+BEGIN
+    POPUP "Popup"
+    BEGIN
+        MENUITEM "显示主窗口(&S)",                   ID_POPUP_SHOW_WINDOW
+        MENUITEM SEPARATOR
+        MENUITEM "退出(&X)",                      ID_POPUP_EXIT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_MAINDLG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 英语(美国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""atlres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 英语(美国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
