@@ -1,4 +1,10 @@
 # EasyDrcomGUI For GDUFE
+## 关于EasyDrcomGUI For GDUFE：
+EasyDrcomGUI For GDUFE 源于 Shindo 编写的为哈尔滨工业大学（威海）量身定制的第三方Dr.COM客户端，可在教学区、家属区、学生区使用，包括Windows, Mac OS X, Linux（包括OpenWrt）版本。
+后经广财13级 XeonForce 修改为可在广财校园网内使用的版本。HowquaX在二者的基础上，进行了重新封装、打包使安装使用更简单。
+Shindo的Github项目地址：https://github.com/coverxit/EasyDrcomGUI
+XeonForce的项目地址：http://wp.xeonforce.com/easydrcom-for-gdufe/
+HowquaX的项目地址：http://husky.red/easydrcom-for-gdufe/
 
 # EasyDrcomGUI
 GUI Wrapper for **[EasyDrcom](https://github.com/coverxit/EasyDrcom)**, which is a 3rd Party Dr.COM Client for HITwh.
@@ -20,12 +26,7 @@ Windows 版 EasyDrcomGUI（以下简称**本项目**）使用 Visual Studio 2015
 * WinPcap (4.1.2 Developer's Pack)
 * WTL (9.0.4140 Final)
 
-## 关于EasyDrcomGUI For GDUFE：
-EasyDrcomGUI For GDUFE 源于 Shindo 编写的为哈尔滨工业大学（威海）量身定制的第三方Dr.COM客户端，可在教学区、家属区、学生区使用，包括Windows, Mac OS X, Linux（包括OpenWrt）版本。
-后经广财13级 XeonForce 修改为可在广财校园网内使用的版本。HowquaX在二者的基础上，进行了重新封装、打包使安装使用更简单。
-Shindo的Github项目地址：https://github.com/coverxit/EasyDrcomGUI
-XeonForce的项目地址：http://wp.xeonforce.com/easydrcom-for-gdufe/
-HowquaX的项目地址：http://husky.red/easydrcom-for-gdufe/
+
 
 ## Change Log
 **部分修改记录可在上述两个项目地址查看。**
